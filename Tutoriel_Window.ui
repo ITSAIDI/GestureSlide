@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1600</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="Background_Label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1600</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AboutUs_Button">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>20</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#AboutUs_Button
+{
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border : 0px solide rgba(0,0,0,0)
+}
+QPushButton#AboutUs_Button:hover
+{
+background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}
+QPushButton#AboutUs_Button:pressed
+{
+    
+	color: rgb(0, 0, 0);
+	background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>About Us</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tutorial_Button">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>20</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Tutorial_Button
+{
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border : 0px solide rgba(0,0,0,0)
+}
+QPushButton#Tutorial_Button:hover
+{
+background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}
+QPushButton#Tutorial_Button:pressed
+{
+    
+	color: rgb(0, 0, 0);
+	background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Tutorial</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Home_Button">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Home_Button
+{
+color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+border : 0px solide rgba(0,0,0,0)
+}
+QPushButton#Home_Button:hover
+{
+background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}
+QPushButton#Home_Button:pressed
+{
+    
+	color: rgb(0, 0, 0);
+	background-color: rgb(62, 168, 234);
+   border : 3px solide rgba(0,0,0,0);
+   border-radius: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

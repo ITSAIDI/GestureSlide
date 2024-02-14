@@ -1,0 +1,5 @@
+autopy==4.0.0
+cvzone==1.6.1
+numpy==1.26.4
+pyautogui==0.9.54
+PyQt5==5.15.10

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1600</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="Background_Label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1600</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Continue_Button">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>659</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family> Abdoullah Ashgar EL-kharef</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Continue_Button
+{
+background-color: rgb(255, 255, 255);
+border-radius:12px;
+}
+
+
+QPushButton#Continue_Button:hover
+{
+	
+	
+	
+background-color: rgb(62, 168, 234);
+
+}
+
+QPushButton#Continue_Button:pressed
+{
+background-color:rgb(255, 255, 255);
+
+}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Continue</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="Explain_Browser">
+    <property name="geometry">
+     <rect>
+      <x>52</x>
+      <y>200</y>
+      <width>1121</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nawar Font</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+border : 3px solid rgba(255, 255, 255,0);
+font: 16pt &quot;Nawar Font&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="lineWidth">
+     <number>10</number>
+    </property>
+    <property name="midLineWidth">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="Note_Browser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>750</y>
+      <width>1700</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nawar Font</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+border : 3px solid rgba(255, 255, 255,0);
+font: 16pt &quot;Nawar Font&quot;;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="lineWidth">
+     <number>10</number>
+    </property>
+    <property name="midLineWidth">
+     <number>3</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Back_Button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family> Abdoullah Ashgar EL-kharef</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Back_Button
+{
+background-color: rgb(255, 255, 255);
+border-radius:12px;
+}
+
+
+QPushButton#Back_Button:hover
+{
+	
+	
+	
+	background-color: rgb(255, 170, 255);
+
+}
+
+QPushButton#Back_Button:pressed
+{
+background-color:rgb(255, 255, 255);
+
+}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Forward_Button">
+    <property name="geometry">
+     <rect>
+      <x>1500</x>
+      <y>10</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family> Abdoullah Ashgar EL-kharef</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Forward_Button
+{
+background-color: rgb(255, 255, 255);
+border-radius:12px;
+}
+
+
+QPushButton#Forward_Button:hover
+{
+	
+	
+	
+	background-color: rgb(255, 170, 255);
+
+}
+
+QPushButton#Forward_Button:pressed
+{
+background-color:rgb(255, 255, 255);
+
+}
+
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Forward</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Message_Label">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>620</y>
+      <width>751</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 255, 0);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Label_Gif">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>60</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
