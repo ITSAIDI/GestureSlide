@@ -1,3 +1,4 @@
+![Welcome](./Welcome_Image.png)
 # GestureSlide: Control PowerPoint Presentations with Hand Gestures
 
 **GestureSlide** is an advanced web application designed to allow users to control their PowerPoint presentations using hand gestures. It leverages gesture recognition technology to provide a more immersive and interactive presentation experience. GestureSlide is perfect for use in professional presentations, academic lectures, or meetings, enabling smooth slide navigation and control without the need for a remote or mouse.
