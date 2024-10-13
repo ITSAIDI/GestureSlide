@@ -16,7 +16,7 @@
 
 1. **Camera Activation**: The application uses the device's camera to monitor the user's hand movements during the presentation.
    
-2. **Gesture Detection**: Hand gestures are analyzed in real-time, and when a predefined gesture (e.g., swipe left, swipe right) is recognized, the app identifies the corresponding action.We use for that the ![MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker) Model
+2. **Gesture Detection**: Hand gestures are analyzed in real-time, and when a predefined gesture (e.g., swipe left, swipe right) is recognized, the app identifies the corresponding action.We use for that the [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker) Model
 
 3. **Slide Control**: Based on the recognized gesture, the App executes the appropriate shortcut on the keyboard  to move between slides or perform other presentation-related tasks.
 
